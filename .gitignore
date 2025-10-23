@@ -1,0 +1,30 @@
+# Derleme ve çıktı klasörleri
+build/
+dist/
+
+# PyInstaller ve benzeri araçların çıktıları
+*.spec
+
+# Python cache dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sanal ortam
+venv/
+.env/
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Loglar
+*.log
+
+# Geçici dosyalar
+*.tmp
